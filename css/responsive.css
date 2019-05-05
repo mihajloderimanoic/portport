@@ -1,0 +1,144 @@
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 991px) {
+
+	.left-div img {
+		height: 950px;
+	}
+
+	.content__title-3 {
+		font-size: 3.5vw !important;
+	}
+
+	.right-div h3 {
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	.paragraph {
+		font-size: 14px;
+	}
+
+	.skills h1 {
+		font-size: 1.2rem;
+	}
+
+	.skills h3 {
+		font-size: 1rem;
+	}
+
+	.onClickTextOverImage{
+ 		 width:115px;
+ 		 height:115px;
+ 		 margin: 2rem;
+ 	}
+
+ 	.my-projects {
+    	margin: 3.5rem;
+    }
+
+
+
+} 
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 767px) {
+
+
+	.left-div img {
+		height: 750px;
+	}
+
+	.content__title-3 {
+		font-size: 3vw !important;
+	}
+
+	.right-div h3 {
+		font-size: 13px;
+	}
+
+	.paragraph {
+		font-size: 12px;
+	}
+
+	.right-div {
+		margin-top: -3rem;
+	}
+
+	.skills {
+		width: 30rem;
+	}
+
+
+
+
+
+
+} 
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) {
+
+
+
+
+} 
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+	.profile-gal {
+    	width: 10rem;
+    	height: 10rem;
+	}
+
+	.h-text-one {
+    	font-size: 1.2rem;
+    }
+
+    .h-text-two {
+    	font-size: 1.1rem;
+    }
+
+    .content-3 {
+    	flex-direction: column !important;
+	}
+
+	.left-div img {
+		width: 100vw;
+		height: 300px;
+	}
+
+	.right-div {
+		margin: 2rem auto 5rem;
+	}
+
+	.skills {
+		width: 20rem;
+	}
+
+	.skills h1 {
+		font-size: 0.8rem;
+	}
+
+	.skills h3 {
+		font-size: 0.65rem;
+	}
+
+	.onClickTextOverImage{
+ 		 width:250px;
+ 		 height:250px;
+        margin-left: 5rem;
+ 	}
+
+ 	.my-projects {
+    	margin-bottom: 10rem;
+    }
+
+
+
+} 

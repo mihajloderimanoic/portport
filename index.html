@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Portfolio | Mihajlo Derimanovic </title>
+		<meta name="description" content="A CSS Grid powered menu with a box look" />
+		<meta name="keywords" content="menu, css grid, box, navigation, web development, animation" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<link rel="stylesheet" href="css/animate.min.css">
+		<link rel="stylesheet" type="text/css" href="css/demo2.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="demo-2 loading">
+		<svg class="hidden">
+		    <symbol id="icon-arrow" viewBox="0 0 24 24">
+		        <title>arrow</title>
+		        <polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 " />
+		    </symbol>
+		    <symbol id="icon-drop" viewBox="0 0 24 24">
+		        <title>drop</title>
+		        <path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z" />
+		        <path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z" />
+		    </symbol>
+		</svg>
+		<main>
+		    <div class="content content--fixed">
+		        <!--<header class="codrops-header">
+					<div class="codrops-links">
+						<a class="codrops-icon codrops-icon--prev" href="#" title="Portfolio on English">ENG</a>
+						<a class="codrops-icon codrops-icon--drop" href="#" title="Portfolio na Srpskom">SRB</a>
+					</div>
+					</header>-->
+		        <!------------------<h1 class="codrops-header__title">Grid Menu</h1>
+					<span class="info">Inspired by <a href="https://www.youtube.com/watch?v=Z9Ku5ptjzKw">Ableton Live 10: What's New</a></span> ----->
+
+		        <!------------------<nav class="demos">
+					<a class="demo" href="index.html">demo 1</a>
+					<a class="demo demo--current" href="index2.html">demo 2</a>
+					<a href="https://github.com/codrops/GridMenu" class="github">github</a>
+				</nav>----->
+		        <button class="menu-trigger">+ menu</button>
+		    </div>
+		    <div id="content-1" class="content content--switch content--switch-current">
+		        <!-----------<h2 class="content__title">Escape</h2>
+				<div class="content__subtitle">explore nature</div>----->
+
+		        <div class="profile-gal js-wp-2">
+		            <img src="img/cc34567.jpg" alt="#" class="profile-pic">
+		        </div>
+
+		        <!------<div class="home-page">
+					
+					<div class="info">
+						<p>
+							<span class="element"></span>
+						</p>
+					</div>
+
+				</div> ------->
+
+		        <div class="home-page">
+
+
+		            <h1 class="h-text">
+		                <span class="h-text-one">MIHAJLO DERIMANOVIC</span>
+		                <span class="h-text-two element"></span>
+		            </h1>
+
+		        </div>
+
+								       
+
+
+		       
+
+
+		    </div>
+
+		    <div id="content-3" class="content content--switch content-3">
+
+		        <div class="left-div">
+		            <img src="img/34567-magic.jpg" alt="#">
+		        </div>
+
+		        <div class="right-div">
+
+		            <h2 class="content__title content__title-3">About me</h2>
+
+
+
+
+		            <h3>Hello</h3>
+
+		            <p class="paragraph wow fadeInRight animated" data-wow-delay="1s">My name is Mihajlo, and I'm junior web designer/developer. I think there is nothing that a man can't learn with enough effort and dedication. Every day, I'm looking for ways to improve my knowledge in order to write a clean and sustainable code. </p>
+
+		            <p class="paragraph wow fadeInRight animated" data-wow-delay="1.2s">Young and passionate developer, always happy to learn new things and evolve. Fell in love with computers and programming as a kid and has pursued my dream to become a developer since. </p>
+
+		            <p class="paragraph wow fadeInRight animated" data-wow-delay="1.4s">I am looking for a first chance as frontend developer, web designer or as a volunteer in a company. I am a persistent and hard working student in the field of web development. In one year of studying, I have entered the topic of the Holy Trinity of HTML & CSS and JavaScript. At this moment I do not know at what level of expertise I am, but I do know that I am willing to constantly learn and improve. For me there are no holidays or weekends. Only learning and trying to absorb as much knowledge as I can. </p>
+
+		            <p class="paragraph wow fadeInRight animated" data-wow-delay="1.6s">When I'm not working, I'm studying everything I can to become better developer.
+		                I enjoy turning complex problems into simple one, and making strong focus on pixel perfect responsive design and best performances. I'm looking for a friendly environment that would allow me to develop professionally, and help me to improve my skills. I'm available for any business cooperation.
+		            </p>
+
+		            <p class="paragraph wow fadeInRight animated" data-wow-delay="1.8s">
+		                My dream is to find a real company where I can improve myself as much I can, and also to show off my skills and value to other people.
+
+		                I mostly like to work with frontend technologies, html/css and Javascript. I would like to learn it in future, and to work with React and React Native. (also I’m very interested in Python). </p>
+
+		            <p class="paragraph wow fadeInRight animated" data-wow-delay="2s">I am still in a learning phase and working on various projects. So, if you have any project or idea in mind, i would love to work on that.
+
+		                If you also want your own Website for buisness or just a simple portfolio feel free to contact me.
+
+		            </p>
+
+
+		        </div>
+
+
+
+
+
+		    </div>
+
+
+
+
+
+
+		    <div id="content-2" class="content content--switch">
+		        <!---<h2 class="content__title">Beach</h2>------>
+
+
+		        <div class="skills">
+		            <h1>My skills</h1>
+		            <li>
+		                <h3>Adobe Photoshop</h3>
+		                <span class="bar">
+		                    <span class="photoshop"></span>
+		                </span>
+		            </li>
+
+		            <li>
+		                <h3>Adobe Illustrator</h3>
+		                <span class="bar">
+		                    <span class="illustrator"></span>
+		                </span>
+		            </li>
+
+		            <li>
+		                <h3>Html & Css</h3>
+		                <span class="bar">
+		                    <span class="htmlcss"></span>
+		                </span>
+		            </li>
+
+		            <li>
+		                <h3>JavaScript</h3>
+		                <span class="bar">
+		                    <span class="javascript"></span>
+		                </span>
+		            </li>
+
+		            <li>
+		                <h3>jQuery</h3>
+		                <span class="bar">
+		                    <span class="jquery"></span>
+		                </span>
+		            </li>
+
+		            <li>
+		                <h3>Angular</h3>
+		                <span class="bar">
+		                    <span class="angular"></span>
+		                </span>
+		            </li>
+
+		            <li>
+		                <h3>Wordpress</h3>
+		                <span class="bar">
+		                    <span class="wordpress"></span>
+		                </span>
+		            </li>
+
+		            <li>
+		                <h3>Search Eengine Optimization</h3>
+		                <span class="bar">
+		                    <span class="seo"></span>
+		                </span>
+		            </li>
+
+		        </div>
+
+		    </div>
+
+
+		    <div id="content-5" class="content content--switch">
+		        <h2 class="content__title">My project</h2>
+
+		        <div class="my-projects">
+
+
+		            <div class="onClickTextOverImage onClickTextOverImage-1 wow fadeInLeft animated" data-wow-delay="1s">
+		                <div>Project with a bootstrap</div>
+		            </div>
+
+		            <div class="onClickTextOverImage onClickTextOverImage-2 wow zoomIn animated" data-wow-delay="1.2s">
+		                <div>Nexter project with CSS Grid</div>
+		            </div>
+
+		            <div class="onClickTextOverImage onClickTextOverImage-3 wow fadeInRight animated" data-wow-delay="1.1s">
+		                <div>Trillo project with CSS Flexbox</div>
+		            </div>
+		            
+		            
+		            
+		            <div class="onClickTextOverImage onClickTextOverImage-4 wow fadeInLeft animated" data-wow-delay="1.3s">
+		                <div>Beautifull project Hero with pure CSS</div>
+		            </div>
+
+		            <div class="onClickTextOverImage onClickTextOverImage-5 wow zoomIn animated" data-wow-delay="1.5s">
+		                <div>Restaurant project with CSS and Jquery <a target="_blank" href="https://mihajloderimanoic.github.io/derimanovicrestaurant.github.io/" onclick="stopPropagation(event)">VIEW WORK</a></div>
+		            </div>
+
+		            <div class="onClickTextOverImage onClickTextOverImage-6 wow fadeInRight animated" data-wow-delay="1.4s">
+		                 <div>Readme-master project with CSS and JavaScript <a target="_blank" href="https://mihajloderimanoic.github.io/mobile.github.io/" onclick="stopPropagation(event)">VIEW WORK</a></div>
+		            </div>
+		            
+		            
+		            
+		            <div class="onClickTextOverImage onClickTextOverImage-7 wow fadeInLeft animated" data-wow-delay="1.6s">
+		                <div>Angular project - Memory game  <a target="_blank" href="https://mihajloderimanoic.github.io/memorygame.io/" onclick="stopPropagation(event)">VIEW WORK</a></div>
+		            </div>
+
+		            <div class="onClickTextOverImage onClickTextOverImage-8 wow zoomIn animated" data-wow-delay="1.8s">
+		                <div>Angular project - Weather app <a target="_blank" href="https://markonastic.github.io/my-weather-app/" onclick="stopPropagation(event)">VIEW WORK</a></div>
+		            </div>
+
+		            <div class="onClickTextOverImage onClickTextOverImage-9 wow fadeInRight animated" data-wow-delay="1.7s">
+		                <div>Angular project - Top 10 rock artists <a target="_blank" href="https://markonastic.github.io/top10-rock-artists/" onclick="stopPropagation(event)">VIEW WORK</a></div>
+		            </div>
+
+
+
+		        </div>
+
+		    </div>
+
+		    <div id="content-4" class="content content--switch">
+		        <h2 class="content__title margin-bottom-5">Contact me</h2>
+
+
+
+		        <div class="contact-me wrapper margin-bottom-10">
+
+
+		            <div class="address">
+		                <div class="inner-address">
+		                    <i class="fas fa-map-marker-alt"></i>
+		                    <p>Bilecka 29,<br /> 18000 Nish, Serbia</p>
+		                </div>
+		                <div class="inner-address">
+		                    <i class="fas fa-envelope"></i>
+		                    <p>webdeveloper.mihajloderimanovic@gmail.com</p>
+		                </div>
+		                <div class="inner-address">
+		                    <i class="fas fa-phone-volume"></i>
+		                    <p>+381 611867409</p>
+		                </div>
+		            </div>
+
+		            <div class="form">
+		                <!---<div class="form-title">
+						      Leave us your precious message
+						    </div>------->
+		                <div class="input-form">
+		                    <div class="input inp-name">
+		                        <input type="text" placeholder="Name">
+		                    </div>
+		                    <div class="input">
+		                        <input type="text" placeholder="Email">
+		                    </div>
+		                </div>
+		                <div class="inner-msg">
+		                    <div class="msg">
+		                        <textarea placeholder="Message"></textarea>
+		                    </div>
+		                </div>
+		                <div class="btn">
+		                    Send Message
+		                </div>
+
+		                <div class="social">
+		                	<a href="#" class="fa fa-facebook"></a>
+
+		                	<a href="#" class="fa fa-google"></a>
+
+		                	<a href="#" class="fa fa-linkedin"></a>
+
+		                	<a href="#" class="fa fa-instagram"></a>
+		                </div>
+		            </div>
+
+
+		        </div>
+
+
+		    </div>
+
+
+		    <!------------------<div id="content-6" class="content content--switch">
+				<h2 class="content__title">Mountains</h2>
+				<div class="content__subtitle">Explore your limits </div>
+			</div>----->
+		    <nav class="grim">
+		        <!------------------<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--1"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--2"></div>
+				</div> . ----->
+		        <div class="grim__item">
+		            <div class="grim__item-bg grim__item-bg--3"></div>
+		            <div class="grim__item-content">
+		                <div class="grim__item-inner">
+		                    <button class="menu-trigger menu-trigger--close">- close</button>
+		                </div>
+		            </div>
+		        </div>
+		        <!------------------<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--4"></div>
+				</div> . ----->
+		        <div class="grim__item">
+		            <div class="grim__item-bg grim__item-bg--5"></div>
+		            <a href="#content-1" class="grim__link grim__item-content">
+		                <div class="grim__item-inner">
+		                    <h3 class="grim__item-title">Home</h3>
+		                </div>
+		            </a>
+		        </div>
+		        <div class="grim__item">
+		            <div class="grim__item-bg grim__item-bg--6"></div>
+		            <div class="grim__item-img grim__item-img--1" style="background-image: url(img/1234567.jpg);"></div>
+		            <a href="#content-2" class="grim__link grim__item-content">
+		                <div class="grim__item-inner">
+		                    <h3 class="grim__item-title">Skills</h3>
+		                    <span class="grim__item-desc">Lift your spirits</span>
+		                </div>
+		            </a>
+		            <div class="grim__item-bg grim__item-bg-cover grim__item-bg--6"></div>
+		        </div>
+		        <div class="grim__item">
+		            <div class="grim__item-bg grim__item-bg--7"></div>
+		            <div class="grim__item-img grim__item-img--2" style="background-image: url(img/34567.jpg);"></div>
+		            <a href="#content-3" class="grim__link grim__item-content">
+		                <div class="grim__item-inner">
+		                    <h3 class="grim__item-title">About me</h3>
+		                    <span class="grim__item-desc">Find yourself</span>
+		                </div>
+		            </a>
+		            <div class="grim__item-bg grim__item-bg-cover grim__item-bg--7"></div>
+		        </div>
+		        <div class="grim__item">
+		            <div class="grim__item-bg grim__item-bg--8"></div>
+		            <div class="grim__item-img grim__item-img--3" style="background-image: url(img/4567.jpg);"></div>
+		            <a href="#content-4" class="grim__link grim__item-content">
+		                <div class="grim__item-inner">
+		                    <h3 class="grim__item-title">Contact me</h3>
+		                    <span class="grim__item-desc">Uncover beauty</span>
+		                </div>
+		            </a>
+		            <div class="grim__item-bg grim__item-bg-cover grim__item-bg--8"></div>
+		        </div>
+		        <div class="grim__item">
+		            <div class="grim__item-bg grim__item-bg--9"></div>
+		            <div class="grim__item-img grim__item-img--4" style="background-image: url(img/234567.jpg);"></div>
+		            <a href="#content-5" class="grim__link grim__item-content">
+		                <div class="grim__item-inner">
+		                    <h3 class="grim__item-title">Project</h3>
+		                    <span class="grim__item-desc">Feel nature</span>
+		                </div>
+		            </a>
+		            <div class="grim__item-bg grim__item-bg-cover grim__item-bg--9"></div>
+		        </div>
+		        <!------------------<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--10"></div>
+					<div class="grim__item-img grim__item-img--5" style="background-image: url(img/5.jpg);"></div>
+					<a href="#content-6" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">Mountains</h3>
+							<span class="grim__item-desc">Explore your limits</span>
+						</div>
+					</a>
+					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--10"></div>
+				</div> . ----->
+		    </nav>
+		</main>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+		<script src="js/demo.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/anime.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/typed.min.js"></script>
+		<script type="js/main.js"></script>
+		<script src="js/animation.js"></script>
+		<script src="js/menu2.js"></script>
+		<script type="js/sript.js"></script>
+	</body>
+</html>
