@@ -12,7 +12,7 @@
 }
 
 span.grim__item-desc {
-	display:none;
+	display:none !important;
 }
 
 .content__title {
