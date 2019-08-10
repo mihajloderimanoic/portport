@@ -11,6 +11,10 @@
 	--color-info: #000;
 }
 
+span.grim__item-desc {
+	display:none;
+}
+
 .content__title {
 	font-family: 'Montserrat', sans-serif;
 	color: white;
