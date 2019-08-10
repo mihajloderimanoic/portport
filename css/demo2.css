@@ -410,19 +410,19 @@ textarea:focus {
 }
 
 .photoshop {
-	width: 80%;
+	width: 85%;
 	animation-name: photoshop;
 	animation-duration: 3s;
 }
 
 .illustrator {
-	width: 65%;
+	width: 75%;
 	animation-name: illustrator;
 	animation-duration: 3s;
 }
 
 .htmlcss {
-	width: 90%;
+	width: 95%;
 	animation-name: htmlcss;
 	animation-duration: 3s;
 }
@@ -446,7 +446,7 @@ textarea:focus {
 }
 
 .wordpress {
-	width: 55%;
+	width: 80%;
 	animation-name: wordpress;
 	animation-duration: 3s;
 }
@@ -457,13 +457,50 @@ textarea:focus {
 	animation-duration: 3s;
 }
 
+
+.sass {
+	width: 80%;
+	animation-name: sass;
+	animation-duration: 3s;
+}
+
+.bootstrap {
+	width: 85%;
+	animation-name: bootstrap;
+	animation-duration: 3s;
+}
+
+.ajax {
+	width: 70%;
+	animation-name: ajax;
+	animation-duration: 3s;
+}
+
+.woocommerce {
+	width: 80%;
+	animation-name: woocommerce;
+	animation-duration: 3s;
+}
+
+.divibuilder {
+	width: 80%;
+	animation-name: divibuilder;
+	animation-duration: 3s;
+}
+
+.elementorpagebuilder {
+	width: 80%;
+	animation-name: elementorpagebuilder;
+	animation-duration: 3s;
+}
+
 @keyframes photoshop {
 	0%{
 		width: 0%;
 	}
 
 	100%{
-		width: 80%;
+		width: 85%;
 	}
 }
 
@@ -473,7 +510,7 @@ textarea:focus {
 	}
 
 	100%{
-		width: 65%;
+		width: 75%;
 	}
 }
 
@@ -483,7 +520,7 @@ textarea:focus {
 	}
 
 	100%{
-		width: 90%;
+		width: 95%;
 	}
 }
 
@@ -523,7 +560,7 @@ textarea:focus {
 	}
 
 	100%{
-		width: 55%;
+		width: 80%;
 	}
 }
 
@@ -535,6 +572,72 @@ textarea:focus {
 	100%{
 		width: 35%;
 	}
+	
+}	
+	
+@keyframes sass {
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+	
+}	
+	
+@keyframes bootstrap {
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 85%;
+	}
+	
+}	
+	
+@keyframes ajax {
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 70%;
+	}
+}
+	
+@keyframes woocommerce {
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+	
+}	
+	
+@keyframes divibuilder {
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+	
+}	
+	
+@keyframes elementorpagebuilder {
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}	
+	
 }
 
  
@@ -585,8 +688,8 @@ textarea:focus {
 }
 
 .onClickTextOverImage{
-  width:150px;
-  height:150px;
+  width:180px;
+  height:180px;
   background-size:100% 100%;
   display:inline-block;
   border-radius:16px;
@@ -597,7 +700,7 @@ textarea:focus {
 }
 
 .onClickTextOverImage a{
-  color: purple;
+    color: purple;
     background: white;
     display: block;
     margin-top: 1rem;
@@ -613,7 +716,7 @@ textarea:focus {
   left:0;
   background-color:rgba(0,0,0,0.5);
   border-radius:16px;
-  padding-top:35%;
+  padding-top:30%;
   text-align:center;
   opacity:0;
   visibility:hidden;
